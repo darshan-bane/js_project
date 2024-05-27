@@ -1,0 +1,79 @@
+body {
+    background: #ffdbdb;
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    border: 2px solid #2f4e77
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgb(251, 255, 0);
+    border: 1px solid;
+}
+
+.newElement {
+    background: #7bff0057;
+    padding: 10px;
+    text-align: left;
+}
+
+.newElement i {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+/* ------------------------ FAQ ---------------------- */
+.acordian {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 20px;
+    transition: transfrom 0.2s;
+}
+
+.icon.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    height: 0;
+    overflow: hidden;
+}
+
+.answer.active {
+    height: auto;
+}
