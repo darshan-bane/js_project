@@ -12,7 +12,7 @@ body {
     background: #ffffff;
     text-align: center;
     padding: 20px;
-    width: 30%;
+    width: 40%;
     margin-top: 20px;
 }
 
@@ -44,7 +44,11 @@ button {
     cursor: pointer;
 }
 
-
+@media only screen and (max-width:1000px) and (min-width:100px) {
+    .container {
+        width: 90%;
+    }
+}
 
 /* ------------------------ FAQ ---------------------- */
 .acordian {
@@ -98,6 +102,16 @@ button {
     padding: 10px 0px;
     width: 20%;
     margin: auto;
+}
+
+@media only screen and (max-width:1000px) and (min-width:100px) {
+    .qr_code_container {
+        width: 90%;
+    }
+
+    #img_box img {
+        width: 50%;
+    }
 }
 
 /* #img_box {
