@@ -20,7 +20,7 @@ input {
     padding: 10px;
     outline: none;
     font-size: 16px;
-    width: 80%;
+    width: 50%;
     border: 2px solid #2f4e77
 }
 
@@ -77,3 +77,38 @@ button {
 .answer.active {
     height: auto;
 }
+
+
+/* ------------------------ QR Code ---------------------- */
+.main_qr_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr_code_container {
+    background: #ffffff;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#img_box img {
+    padding: 10px 0px;
+    width: 20%;
+    margin: auto;
+}
+
+/* #img_box {
+    max-height: 0px;
+    background: #ffffff;
+    transition: height .2s;
+}
+
+
+.active_img_box {
+    max-height: 300px;
+    background: #ffffff;
+    width: 200px;
+} */
